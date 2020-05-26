@@ -30,9 +30,9 @@
 		<atomfeed.version>1.9.4</atomfeed.version>
 		<httpClient.version>4.5.8</httpClient.version>
 		<bahmnicoreVersion>0.93-SNAPSHOT</bahmnicoreVersion>
-		<openmrsAtomfeedVersion>2.5.5-SNAPSHOT</openmrsAtomfeedVersion>
+		<openmrsAtomfeedVersion>2.5.6</openmrsAtomfeedVersion>
 		<atomfeedVersion>1.9.4</atomfeedVersion>
-		<bedManagementVersion>5.10.0-SNAPSHOT</bedManagementVersion>
+		<bedManagementVersion>5.10.0</bedManagementVersion>
 	</properties>
 
 	<dependencyManagement>
