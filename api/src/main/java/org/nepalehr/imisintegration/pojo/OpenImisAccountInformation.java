@@ -12,6 +12,7 @@ public class OpenImisAccountInformation {
 	private Date validTill;
 	private Double remainingAmount;
 	private String cardType;
+	private String puuid;
 
 	public String getNhisNumber() {
 		return nhisNumber;
@@ -75,6 +76,13 @@ public class OpenImisAccountInformation {
 
 	public void setCardType(String cardType) {
 		this.cardType = cardType;
+	}
+	public String getPuuid() {
+		return puuid;
+	}
+
+	public void setPuuid(String puuid) {
+		this.puuid = puuid;
 	}
 
 	@Override
