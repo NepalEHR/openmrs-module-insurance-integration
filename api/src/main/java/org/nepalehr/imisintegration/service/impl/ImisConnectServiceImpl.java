@@ -110,7 +110,7 @@ public class ImisConnectServiceImpl implements ImisConnectService {
 		HttpEntity<String> request = new HttpEntity<String>(headers);
 
 		// String url = properties.getImisConnectUri() + "get/insuree/" + nhisNumber;
-		String url = "http://192.168.33.10:8092/insurance-integration/" + "get/insuree/" + nhisNumber;
+		String url = "http://192.168.2.32:8092/insurance-integration/" + "get/insuree/" + nhisNumber;
 
 		ResponseEntity<String> responseEntity = restTemplate.exchange(url, HttpMethod.GET, request, String.class);
 		String response = responseEntity.getBody();

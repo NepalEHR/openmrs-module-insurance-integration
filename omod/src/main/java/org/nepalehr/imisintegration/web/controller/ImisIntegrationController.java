@@ -46,12 +46,6 @@ public class ImisIntegrationController extends BaseRestController {
 		return imisConnectService.getAccountInformation(patientUUID);
 	}
 
-	@RequestMapping(method = RequestMethod.GET, value = "/hello", produces = "application/json")
-	@ResponseBody
-	public String hello() {
-		service.publishEvent();
-		return "Hello";
-	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/unique/{nhisNumber}", produces = "application/json")
 	@ResponseBody
